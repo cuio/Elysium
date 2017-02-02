@@ -9,7 +9,7 @@ Elysium is a P2P crypto-currency which is set to revolutionize the world by bein
 
  - 60 seconds block targets
  - Block halving in 1,20,000 Blocks
- - ~Total coin supply	18,000,000 ( 18 Million ) 
+ - Total coin supply	18,000,000 ( 18 Million Coins ) 
  - 60 coins per block
  - Algorithm :- Scrypt
  - Type	:- PoW
@@ -23,8 +23,7 @@ to the Elysian plain…where life is easiest for men. No snow is there, nor heav
 License
 -------
 
-Elysium is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
+Elysium is released under the terms of the MIT license. 
 
 Development process
 -------------------
