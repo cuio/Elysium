@@ -1,0 +1,9 @@
+Building Elysium
+
+See doc/readme-qt.rst for instructions on building Elysium-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Elysium.
+
+See doc/build-*.txt for instructions on building elysiumd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Elysium.
