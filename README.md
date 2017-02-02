@@ -1,71 +1,47 @@
-Elysium integration/staging tree
-================================
+Elysium 0.8.x BETA
+====================
+
+Copyright (c) 2009-2014 Bitcoin Developers
+Copyright (c) 2011-2014 Elysium Developers
+
+Distributed under the MIT/X11 software license, see the accompanying
+file COPYING or http://www.opensource.org/licenses/mit-license.php.
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](http://www.openssl.org/). This product includes
+cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
 
 
+Intro
+---------------------
+Elysium is a free open source peer-to-peer electronic cash system that is
+completely decentralized, without the need for a central server or trusted
+parties.  Users hold the crypto keys to their own money and transact directly
+with each other, with the help of a P2P network to check for double-spending.
 
-What is Elysium?
-----------------
-Elysium is a P2P crypto-currency which is set to revolutionize the world by being the first Crypto-currency for Governments for Global Settlement Network and a Crypt-currency facilitating trade, commerce and investments worldwide through its disruptive technology .
 
- - 60 seconds block targets
- - Block halving in 1,20,000 Blocks
- - Total coin supply	18,000,000 ( 18 Million Coins ) 
- - 60 coins per block
- - Algorithm :- Scrypt
- - Type	:- PoW
- 
+Setup
+---------------------
+You need the Qt4 run-time libraries to run Elysium-Qt. On Debian or Ubuntu:
+	`sudo apt-get install libqtgui4`
 
-The word Elysium comes from ancient greek word Ἠλύσιον πεδίον , as a conception of the afterlife that developed over time , it expanded to include those chosen by the gods, the righteous, and the heroic, where they would remain after death, to live a blessed and happy life, and indulging in whatever employment they had enjoyed in life.
+Unpack the files into a directory and run:
 
-In Homer’s Odyssey, Elysium is described as a paradise:
-to the Elysian plain…where life is easiest for men. No snow is there, nor heavy storm, nor ever rain, but ever does Ocean send up blasts of the shrill-blowing West Wind that they may give cooling to men.
+- bin/32/elysium-qt (GUI, 32-bit)
+- bin/32/elysiumd (headless, 32-bit)
+- bin/64/elysium-qt (GUI, 64-bit)
+- bin/64/elysiumd (headless, 64-bit)
 
-License
--------
+See the documentation at the [Elysium Wiki](http://elysium.info)
+for help and more information.
 
-Elysium is released under the terms of the MIT license. 
 
-Development process
--------------------
-
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
-
-If it is a simple/trivial/non-controversial change, then one of the Elysium
-development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
-
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/elysium-project/elysium/tags) are created
-regularly to indicate new official, stable release versions of Elysium.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./elysium-qt_test
-
+Other Pages
+---------------------
+- [Unix Build Notes](build-unix.md)
+- [OSX Build Notes](build-osx.md)
+- [Windows Build Notes](build-msw.md)
+- [Coding Guidelines](coding.md)
+- [Release Process](release-process.md)
+- [Release Notes](release-notes.md)
+- [Multiwallet Qt Development](multiwallet-qt.md)
+- [Unit Tests](unit-tests.md)
+- [Translation Process](translation_process.md)
