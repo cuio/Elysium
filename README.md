@@ -1,25 +1,24 @@
 Elysium integration/staging tree
 ================================
 
-http://www.elysium.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Elysium Developers
 
 What is Elysium?
 ----------------
+Elysium is a P2P crypto-currency which is set to revolutionize the world by being the first Crypto-currency for Governments for Global Settlement Network and a Crypt-currency facilitating trade, commerce and investments worldwide through its disruptive technology .
 
-Elysium is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ - 60 seconds block targets
+ - Block halving in 1,20,000 Blocks
+ - ~Total coin supply	18,000,000 ( 18 Million ) 
+ - 60 coins per block
+ - Algorithm :- Scrypt
+ - Type	:- PoW
+ 
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+The word Elysium comes from ancient greek word Ἠλύσιον πεδίον , as a conception of the afterlife that developed over time , it expanded to include those chosen by the gods, the righteous, and the heroic, where they would remain after death, to live a blessed and happy life, and indulging in whatever employment they had enjoyed in life.
 
-For more information, as well as an immediately useable, binary version of
-the Elysium client sofware, see http://www.elysium.org.
+In Homer’s Odyssey, Elysium is described as a paradise:
+to the Elysian plain…where life is easiest for men. No snow is there, nor heavy storm, nor ever rain, but ever does Ocean send up blasts of the shrill-blowing West Wind that they may give cooling to men.
 
 License
 -------
