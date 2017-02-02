@@ -16,6 +16,8 @@ completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
 
+Windows Elsyium Wallet 
+[https://github.com/cuio/Elysium/blob/master/Elysium%20Windows%20Wallet.zip]
 
 Setup
 -----
