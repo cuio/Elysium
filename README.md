@@ -1,12 +1,13 @@
 Elysium 0.8.9
 ====================
 Specifications 
- - 60 secs block targets
- - Block halving :- 120,000 blocks
- - Total coin supply:- 18,000,000 coins ( 18 Million coins ) 
- - 60 coins per block
- - Algorithm :-Scrypt
- - Type	PoW
+
+- Algorithm :-Scrypt
+- Type PoW
+- Block halving :- 120,000 blocks
+- Total coin supply:- 18,000,000 coins ( 18 Million coins )
+- 60 coins per block
+- 60 secs block targets
 
 
 Intro
@@ -19,6 +20,13 @@ Intro
 
 To the Elysian plain…where life is easiest for men. No snow is there, nor heavy storm, nor ever rain, but ever does Ocean send up blasts of the shrill-blowing West Wind that they may give cooling to men.
 
+Setup
+-----
+Unpack the files into a directory and run elysium-qt.exe.
+
+Elysium-Qt is the original Elysium client and it builds the backbone of the networ
+depending on the speed of your computer and network connection, the synchronization
+process can take anywhere from a few hours to a day or more.
 
 Development process
 -------------------
